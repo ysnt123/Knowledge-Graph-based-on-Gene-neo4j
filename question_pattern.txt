@@ -1,0 +1,16 @@
+[have1] What genes do species have?
+[have2] What species do gene id exist in?
+[be_transcribed_into1] Gene id is transcribed into what sequence?
+[be_transcribed_into2] Gene id is transcribed into what protein?
+[be_transcribed_into31] sequence id is transcribed from which gene?
+[be_transcribed_into32] protein id is transcribed from which gene?
+[is_a] what is the GO that has relationship "is a " with GO id?
+[negatively_regulates] what is the GO that has relationship "negatively regulates " with GO id?
+[positively_regulates] what is the GO that has relationship "positively regulates " with GO id?
+[regulates] what is the GO that has relationship "regulates " with GO id?
+[part_of] what is the GO that has relationship "part of" with GO id?
+[molecular_function] what genes do molecular function includes in Species?
+[biological_process] what genes do biological process includes in Species?
+[cellular_component] what genes do cellular component includes in Species?
+[eco] what genes is an evidence ontology in Species?
+[belong_to] Sequence id belongs to which protein? 
