@@ -1,0 +1,12 @@
+一、基础准备工作：
+    （1）Neo4j常用查询操作——写成挖空了的操作；记为语句A
+    （
+    譬如：MATCH (Gene)-[:eco]->(GO) RETURN Gene,GO LIMIT 10
+    写成：MATCH (entity1)-[:relationship]->(entity2) RETURN entity1,entity2 LIMIT num
+    目前这个难度颇高了- -；先写简单的查询语句即可
+    ）
+    （2）把目标问题Q和语句A进行相似度计算，匹配和问题最接近的那个A
+        (a)写出语句A的多个模板
+        (b)和目标问题进行相似度计算(标准、方法？)
+    
+    （3）将目标问题里的实体和关系提取出来，放在被挖空的语句里，执行graph.run()操作进行查询
